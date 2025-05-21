@@ -5,33 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
     <link rel="stylesheet" href="table.css".css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h2>Images:</h2>
+    <br>
     <img height="300" src="image.png" alt="Dog Image">
+    <br>
     <table>
+        <h2>Tables:</h2>
+        <thead>
         <tr>
-            <th colspan="3">Name</th>
+            <th colspan="2">Name</th>
             <th>Age</th>
             <th>Breed</th>
         </tr>
-        
+        </thead>
+
+        <tbody>
         <tr>
-            <td colspan="3">Bruno</td>
-            <td>6</td>
+            <td colspan="2">Bruno</td>
+            <td rowspan="2">6</td>
             <td>German Sheperd</td>
         </tr>
 
         <tr>
-            <td colspan="2">Charlie</td>
-            <td>9</td>
-            <td>Golden Retriver</td>
+            <td>Charlie</td>
+            <td>Indian Breed</td>
         </tr>
-
+        </tbody>
+        
+        <tfoot>
         <tr>
-            <td colspan="2">Charlie</td>
-            <td>9</td>
+            <td>Footer</td>
+            <td colspan="2">9</td>
             <td>Golden Retriver</td>
         </tr>
+        </tfoot>
     </table>
+    <br>
+
+    <h2>Lists</h2>
+    <br>
+    <caption>Unordered:</caption>
+    <ul type="square">
+        <li>Aditya</li>
+        <li>Rohan</li>
+        <li>Sohan</li>
+    </ul>
+    
+    <br>
+
+    <caption>Ordered:</caption>
+    <ol type="a">
+        <li>Rakesh</li>
+        <li>Saksham</li>
+        <li>Bhuvan</li>
+    </ol>
+    
+    <br>
+
+    <caption>Defination List:</caption>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt odit quaerat maiores quo cumque a ad ipsa distinctio perspiciatis obcaecati, voluptatum, sunt iure magni eius ipsum asperiores omnis ut. Dolores.</dd>
+        <dt>CSS</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corporis qui cupiditate praesentium excepturi, voluptates enim nostrum veritatis unde modi magni hic.</dd>
+        <dt>J.S.</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum pariatur nihil officiis sequi molestias, modi doloremque atque perferendis enim saepe? Sit hic ratione voluptates rem? Sed vel ullam nemo quia quod repudiandae, ducimus natus ipsum accusamus voluptatum ad architecto vero laudantium! Molestias distinctio alias rerum quam ad explicabo facilis!</dd>
+    </dl>
 </body>
 </html>
